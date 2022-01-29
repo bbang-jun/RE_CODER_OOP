@@ -21,9 +21,10 @@ public:
 
     Node* curWord = head;
 
-    void setHead(string Word) {
-        Node* newnode = new Node; // 동적할당으로 노드 클래스를 생성하여 newnode 포인터 객체 생성
-        head = newnode; // head에 newnode 대입
+    void setHead(string Word) 
+    {
+        Node* makeNode = new Node; // 동적할당으로 노드 클래스를 생성하여 newnode 포인터 객체 생성
+        head = makeNode; // head에 newnode 대입
         head->word = Word; // head의 멤버 word에 매개변수로 받은 Word의 값을 저장
         head->next = NULL; // head의 멤버 next가 NULL 대입(다음 노드가 생성되지 않았으므로 NULL)
     }
@@ -32,7 +33,8 @@ public:
 
 
 
-    Node* InsertNode(string Word) {
+    Node* InsertNode(string Word) 
+    {
         Node* curWord = head; // curWord 포인터 객체 생성 후 head 대입
 
         while (curWord->getNext() != NULL)  // 현재 노드의 끝이 NULL일 때까지 반복(curWord를 맨 끝으로 이동)
