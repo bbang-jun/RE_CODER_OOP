@@ -52,6 +52,7 @@ public:
 		return curWord;
 	}
 
+
 	bool findWord(string Word)
 	{
 		Node* curWord = head;
