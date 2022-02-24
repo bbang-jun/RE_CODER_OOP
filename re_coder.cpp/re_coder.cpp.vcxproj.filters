@@ -33,13 +33,19 @@
     <ClCompile Include="4주차_2번.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="퀴즈.cpp">
+    <ClCompile Include="퀴즈_1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="5주차_1번.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="bstTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="퀴즈_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="strtok_text.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
